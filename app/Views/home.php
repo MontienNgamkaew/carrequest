@@ -17,7 +17,7 @@ ob_start();
             </svg>
         </div>
         <div>
-            <div class="home-brand-title">PNP EDU smart</div>
+            <div class="home-brand-title">PNP Go</div>
             <div class="home-brand-sub">ระบบขออนุญาตใช้รถยนต์และสั่งซื้อน้ำมันเชื้อเพลิง</div>
         </div>
     </div>
