@@ -8,16 +8,17 @@ ob_start();
     <!-- Header Brand -->
     <div class="home-brand">
         <div class="home-brand-icon">
-            <svg viewBox="0 0 40 40" fill="none" width="28" height="28">
-                <path d="M6 26h28l-3-9a4 4 0 00-3.8-2.8H12.8A4 4 0 009 17L6 26Z" fill="white"/>
-                <path d="M6 26h28v5a2 2 0 01-2 2H8a2 2 0 01-2-2v-5Z" fill="rgba(255,255,255,0.8)"/>
-                <circle cx="13" cy="30" r="3" fill="white"/>
-                <circle cx="27" cy="30" r="3" fill="white"/>
+            <svg viewBox="0 0 40 40" fill="none" width="30" height="30">
+                <rect width="40" height="40" rx="10" fill="rgba(255,255,255,0.15)"/>
+                <path d="M12 28h16l-2-6a2 2 0 00-1.9-1.4h-8.2A2 2 0 0014 22l-2 6Z" fill="white"/>
+                <circle cx="16" cy="30" r="2" fill="white"/>
+                <circle cx="24" cy="30" r="2" fill="white"/>
+                <path d="M20 10v6M17 13h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
             </svg>
         </div>
         <div>
-            <div class="home-brand-title">ระบบขออนุญาตใช้รถยนต์</div>
-            <div class="home-brand-sub">และสั่งซื้อน้ำมันเชื้อเพลิง</div>
+            <div class="home-brand-title">PNP EDU smart</div>
+            <div class="home-brand-sub">ระบบขออนุญาตใช้รถยนต์และสั่งซื้อน้ำมันเชื้อเพลิง</div>
         </div>
     </div>
 
