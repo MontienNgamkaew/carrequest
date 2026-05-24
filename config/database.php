@@ -11,12 +11,11 @@ return $isLocal ? [
     'password' => '',
     'charset'  => 'utf8mb4',
 ] : [
-    // === Hostinger Production ===
-    // แก้ค่าเหล่านี้ตามที่ได้จาก Hostinger hPanel > Databases
+    // === Hostinger Production (pnp-go.montien.tech) ===
     'host'     => '127.0.0.1',
     'port'     => 3306,
-    'database' => 'u123456789_carrequest',   // เปลี่ยนตามจริง
-    'username' => 'u123456789_carrequest',   // เปลี่ยนตามจริง
-    'password' => 'YOUR_DB_PASSWORD',        // เปลี่ยนตามจริง
+    'database' => 'u651170081_carrequest',
+    'username' => 'u651170081_carrequest',
+    'password' => 'CHANGE_ON_SERVER',   // ← แก้ผ่าน File Manager บน Hostinger
     'charset'  => 'utf8mb4',
 ];
