@@ -1,4 +1,4 @@
-USE carrequest;
+-- Seed: ผู้ใช้งานเริ่มต้น (admin, supply_head, deputy_director, director)
 
 INSERT INTO users (full_name, username, password_hash, role, position_title)
 VALUES

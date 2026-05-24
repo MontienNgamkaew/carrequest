@@ -1,8 +1,6 @@
-CREATE DATABASE IF NOT EXISTS carrequest
-    CHARACTER SET utf8mb4
-    COLLATE utf8mb4_unicode_ci;
-
-USE carrequest;
+-- ระบบขออนุญาตใช้รถยนต์/สั่งซื้อน้ำมันเชื้อเพลิง
+-- หมายเหตุ: ไม่มี CREATE DATABASE เพราะ Hostinger สร้าง DB ให้แล้ว
+-- กรุณาเลือก database ที่ถูกต้องใน phpMyAdmin ก่อน Import
 
 CREATE TABLE users (
     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
