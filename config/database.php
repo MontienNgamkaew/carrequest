@@ -2,7 +2,7 @@
 
 $isLocal = in_array($_SERVER['HTTP_HOST'] ?? '', ['localhost', '127.0.0.1']);
 
-return $isLocal ? [
+$config = $isLocal ? [
     // === Local XAMPP ===
     'host'     => '127.0.0.1',
     'port'     => 3306,
@@ -19,3 +19,14 @@ return $isLocal ? [
     'password' => 'CHANGE_ON_SERVER',   // ← แก้ผ่าน File Manager บน Hostinger
     'charset'  => 'utf8mb4',
 ];
+
+// โหลดค่าคอนฟิกส่วนตัว (เช่น รหัสผ่านฐานข้อมูลจริง) หากมีไฟล์ database.local.php
+$localConfigPath = __DIR__ . '/database.local.php';
+if (is_file($localConfigPath)) {
+    $localConfig = require $localConfigPath;
+    if (is_array($localConfig)) {
+        $config = array_merge($config, $localConfig);
+    }
+}
+
+return $config;

@@ -13,6 +13,7 @@ composer.phar
 # === Config ที่มีข้อมูลสำคัญ (ถ้ามี .env ใช้ในอนาคต) ===
 .env
 .env.*
+config/database.local.php
 
 # === ไฟล์ทดสอบ / ชั่วคราว ===
 test.php
